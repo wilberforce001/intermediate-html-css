@@ -1,6 +1,7 @@
 .container {
-    /*display: inline-grid;
-    /*grid-template-columns: 200px 800px;*/
+    display: inline-grid;
+    grid-template-columns: 250px 1000px;
+    gap: 4px;
 
 }
 .header {
@@ -10,6 +11,7 @@
     background-color: rgb(39, 36, 36);
     color: white;
     grid-area: 1 / 1 / 1 / 8;
+    padding: 30px;
 }
 
 .header-logo {
@@ -19,10 +21,9 @@
 .placeholder {
     background-color: red;
     display: inline-grid;
-    grid-area: 1 / 1 / 5 / 1;
-    grid-template-rows: 150px 150px 150px 150px;
-    grid-template-columns: 200px;
-    gap: 50px;
+    grid-template-rows: repeat(4, 150px);
+    gap: 10px;
+    grid-area: 2 / 1 / 5 / 1;
     
 }
 
@@ -38,5 +39,12 @@
 
 .image {
     border-radius: 25px;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    grid-area: 2 / 2 / 2 / 8;
 }
 
