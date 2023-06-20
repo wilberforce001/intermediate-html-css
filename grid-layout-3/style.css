@@ -16,6 +16,11 @@
 
 .header-logo {
     font-weight: bold;
+    padding-right: 250px;
+}
+
+.four {
+    padding-right: 50px;
 }
 
 .placeholder {
@@ -43,8 +48,18 @@
 
 .preview {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: red;
     grid-area: 2 / 2 / 2 / 8;
+    color: white;
+    padding: 15px;
+}
+
+.latest {
+    padding-left: 100px;
+}
+
+.featured {
+    padding-right: 150px;
 }
 
