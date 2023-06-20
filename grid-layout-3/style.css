@@ -1,0 +1,42 @@
+.container {
+    /*display: inline-grid;
+    /*grid-template-columns: 200px 800px;*/
+
+}
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    grid-area: 1 / 1 / 1 / 8;
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+.placeholder {
+    background-color: red;
+    display: inline-grid;
+    grid-area: 1 / 1 / 5 / 1;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 200px;
+    gap: 50px;
+    
+}
+
+.image, 
+.box1, 
+.box2, 
+.box3 {
+    background-color: white;
+    border: 15px solid red;
+    text-align: center;
+    padding-top: 50px;   
+}
+
+.image {
+    border-radius: 25px;
+}
+
