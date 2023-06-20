@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
 .container {
     display: inline-grid;
     grid-template-columns: 250px 1000px;
@@ -62,4 +69,19 @@
 .featured {
     padding-right: 150px;
 }
+
+.articles {
+    display: inline-grid;
+    grid-area: 3 / 2 / 3 / 2;
+    background-color: green;
+}
+
+.footer {
+    background-color: rgb(39, 36, 36);
+    color: white;
+    grid-area: 6 / 1 / 6 / 8;
+    text-align: center;
+    padding: 15px;
+}
+
 
