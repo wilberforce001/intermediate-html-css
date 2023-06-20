@@ -70,10 +70,18 @@ body {
     padding-right: 150px;
 }
 
-.articles {
+.article1 {
     display: inline-grid;
-    grid-area: 3 / 2 / 3 / 2;
     background-color: green;
+    grid-template-columns: 250px;
+}
+
+.article2 {
+    display: inline-grid;
+    grid-area: 3 / 3 / 3 / 3;
+    background-color: green;
+    grid-template-columns: 250px;
+    
 }
 
 .footer {
